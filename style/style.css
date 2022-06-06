@@ -1,8 +1,15 @@
+:root {
+    --font-page: 'Nunito';
+    --backgroung-page: #FFFFFF;
+    --text-color01: #242424;
+    --text-color02: #000000;
+    --text-color03: #FFFFFF:
+}
+
 body {
-    position: relative;
     width: 1440px;
     height: 900px;
-    background: #FFFFFF;
+    background:var(--backgroung-page);
 }
 
 header {
@@ -10,13 +17,115 @@ header {
     height: 95px;
     left: 0px;
     top: 0px;
-}
-
-.menu-nav {
-    width: 1440px;
-    height: 95px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
+    background: var(--backgroung-page);
     box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);
 }
+
+.nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1115px;
+    height: 95px;
+    left: 164px;
+    top: 0px;
+    background: var(--backgroung-page);
+    align-items: center;
+    margin: none;
+}
+
+.logo{
+    width: 174px;
+    height: 37.89px;
+
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 281px;
+    height: 25px;
+}
+
+.nav-menu a{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--text-color01);
+    cursor: pointer;
+}
+
+
+
+.main-background01 {
+    position: absolute;
+    width: 479.39px;
+    height: 552.14px;
+    left: -143px;
+    top: 267px;
+    transform: rotate(-5.99deg);
+}
+
+.main-background02 {
+    position: absolute;
+    width: 519.83px;
+    height: 489.39px;
+    left: 1086.87px;
+    top: 110px;
+}
+
+.main-info {
+    position: absolute;
+    width: 527px;
+    height: 336.86px;
+    left: 160px;
+    top: 298px;
+}
+
+.main-info-text {
+    position: absolute;
+    width: 527px;
+    height: 143.17px;
+}
+
+.main-info-text h1{
+    font-family: var(--font-page);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35.8px;
+    line-height: 49px;
+    color: var(--text-color01);
+}
+
+.main-info-socias {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 105.42px;
+    height: 23.24px;
+    margin-left: 9.1px;
+    margin-top: 313.62px;
+}
+
+.main-info-socias img{
+    width: 25.16px;
+    height: 23.24px;
+}
+
+.main-info-button button{
+    position: absolute;
+    width: 290px;
+    height: 58.44px;
+    background: #FCA60F;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 223.04px;
+}
+
