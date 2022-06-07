@@ -6,11 +6,6 @@
     --text-color03: #FFFFFF:
 }
 
-body {
-    width: 1440px;
-    height: 900px;
-    background:var(--backgroung-page);
-}
 
 header {
     width: 1440px;
@@ -37,7 +32,6 @@ header {
 .logo{
     width: 174px;
     height: 37.89px;
-
 }
 
 .nav-menu {
@@ -62,17 +56,19 @@ header {
     width: 479.39px;
     height: 552.14px;
     left: -143px;
-    top: 267px;
-    transform: rotate(-5.99deg);
+    top: 180px;
+    background: url(/img/Vector1.svg);
+    background-repeat: no-repeat;
 }
 
 .main-background02 {
     position: absolute;
-    width: 519.83px;
-    height: 489.39px;
-    left: 1086.87px;
-    top: 85px;
-    transform: rotate(9.27deg);
+    width: 365px;
+    height: 100vh;
+    left: 1075px;
+    top: 120px;
+    background: url(/img/Vector.svg);
+    background-repeat: no-repeat;
 }
 
 .main-info {
@@ -132,7 +128,8 @@ header {
     position: absolute;
     width: 182px;
     height: 305px;
-    left: 928px;
+    left: 890px;
+    top:20px;
 }
 
 .footer-img {
