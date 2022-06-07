@@ -57,8 +57,6 @@ header {
     cursor: pointer;
 }
 
-
-
 .main-background01 {
     position: absolute;
     width: 479.39px;
@@ -73,7 +71,8 @@ header {
     width: 519.83px;
     height: 489.39px;
     left: 1086.87px;
-    top: 110px;
+    top: 85px;
+    transform: rotate(9.27deg);
 }
 
 .main-info {
@@ -129,3 +128,17 @@ header {
     margin-top: 223.04px;
 }
 
+.main-info-cup img {
+    position: absolute;
+    width: 182px;
+    height: 305px;
+    left: 928px;
+}
+
+.footer-img {
+    position: absolute;
+    width: 96px;
+    height: 69px;
+    left: 672px;
+    top: 748px;
+}
