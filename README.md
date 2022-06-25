@@ -4,7 +4,7 @@
 
 
 ><h2>About</h2>
->Challenge proposed by Alura: #7daysofcode to develop a page with a layout available on Figma and share the results daily using GIT.
+>Challenge proposed to develop a page with a layout available on Figma and share the results daily using GIT.
 ><br>
 >Applied languages:HTML and CSS.
 ><br>
@@ -14,15 +14,16 @@
 
 >
 ><h2>My Project</h2>
->Link to finished project: https://alura-7daysofcode-complete.vercel.app
+>Link to finished project: https://getcoffee-landingpage.vercel.app
 >
 >
 >Project challenges : positioning containes, flex-direction and align-items. 
 ><h2>Author</h2>
->Developed by Alura
->https://www.figma.com/file/mm3MLozvUDGhDRTxSLlGL5/7daysOfCode-HTML-CSS?node-id=0%3A1
->
->This project was presented as part of the Alura frontend training.
+> Frontend Challenge HTML | CSS by Luciane - https://github.com/lucianesantcs/get-coffee
+><br>
+>Link Figma - https://www.figma.com/file/lVkh41YvYiMposXwaJXOYO/get-coffee-layout?node-id=0%3A1
+><br>
+>This project was presented as part of training codes every day.
 >
 
 
